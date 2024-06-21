@@ -1,27 +1,4 @@
-// ֆունկցիա, որը ստուգում է, արդյոք տրված ճանապարհը (path)
-// գոյություն ունի օբյեկտում (object)։
-
-//function stugum(obj, path){
-//     let arr = path.split(".")
-//     let current = obj;
-//     for(let i = 0; i < arr.length; i++){
-//         if(current[arr[i]] === undefined){
-//             return false
-//         }
-//         current = current[arr[i]]
-//     }
-//     return true
-// }
-
-// const obj = {
-//     a:15,
-//     b:{
-//         c:5
-//     }
-// }
-// console.log(stugum(obj, "a.b.c"))
-
-////// Խնդիր 2: Հատկությունների քանակի հաշվարկ
+////// Խնդիր 2: Հատկությունների քանակի հաշվարկ
 // Նկարագրություն: Գրել ֆունկցիա, որը կհաշվարկի տրված օբյեկտի հատկությունների քանակը։
 //  let obj= {
 //     name:"Levon",
